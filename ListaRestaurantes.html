@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" type="text/css" href="arquivo.css"/>
+    <title>Lista de recomendações de restaurantes</title>
+</head>
+<body>
+        <div class="container">
+        <h2>Lista de recomendações de restaurantes</h2>
+        <form>
+            <fieldset>
+                <Legend>SOBRE O RESTAURANTE</Legend>
+                    <div class="row"><br>
+                    <label class="col-25">Nome do estabelecimento:</label>
+                    <input class="col-75"><br></input>
+                </div><br>
+                <div class="row">
+                    <label class="col-25">Endereço:</label>
+                    <input class="col-75"><br></input>
+                </div><br>
+                <div class="row">
+                    <label class="col-25">Telefone:</label>
+                    <input class="col-75"><br></input>
+                </div><br>
+                <div class="row">
+                    <label class="col-25">Categoria:<br></label>
+                    <div class="col-75">
+                        <input type="checkbox">Lanches</input>
+                        <input type="checkbox">Pizzas</input>
+                        <input type="checkbox">Hambúrgueres</input>
+                        <input type="checkbox">Japonesa</input>
+                        <input type="checkbox">Chinesa</input>
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-35">Faixa de valores:</label>
+                    <select>
+                    <option>$</option>
+                    <option>$$</option>
+                    <option>$$$</option>
+                    <option>$$$$</option>
+                    </select>
+                </div>
+            </fieldset>
+<br>
+            <fieldset>
+                <legend>CONTE SUA EXPERIÊNCIA</legend>
+                <div class="row">
+                    <label class="col-25">O que pediu?</label>
+                    <input class="col-75"><br>
+                </div><br>
+                <div class="row">
+                    <label class="col-25">Quanto foi?</label>
+                    <input class="col-75" type="number" step="any" placeholder="R$"><br>
+                </div><br>
+                <div class="row">
+                    <label class="col-25">Entregou rápido?</label>
+                    <div class="col-75">
+                        <input type="radio" name="entrega">Sim &#128077</input>
+                        <input type="radio" name="entrega">Não &#128078</input>
+                    </div><br>
+                </div>
+                <div class="row">
+                    <label class="col-25">Observações:</label>
+                </div>
+                <div class="row">
+                    <textarea></textarea>
+                </div>
+
+            </fieldset>
+<br>
+            <button class="cancelar">Cancelar</button>&nbsp;&nbsp;&nbsp;
+            <button type="submit" class="salvar">Salvar</button>
+        </form>
+    </div>
+</body>
+</html>
